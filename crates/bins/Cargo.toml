@@ -1,0 +1,12 @@
+[package]
+name = "bins"
+version = "0.0.0"
+default-run = "bins"
+edition = "2021"
+
+[[bin]]
+name = "bins"
+path = "src/main.rs"
+
+[dependencies]
+enums = { path = "../enums", version = "0.0.0" }
